@@ -1,0 +1,56 @@
+body{background-color: #252422; display: flex; justify-content: center; font-family: 'Courier New', Courier, monospace;}
+
+h1{color: #FFFCF2; text-align: center; font-size:3em;}
+
+#e
+{
+    height: 98vh;
+    width: 25vw;
+    background-color: #403D39;
+}
+
+#form
+{
+    text-align: center;
+    width: 100%;
+    height: 5em;
+}
+
+#form > input
+{
+    border: 0px;
+    border-bottom: 2px solid #CCC5B9;
+    background-color: rgba(178, 34, 34, 0); 
+    color: white;   
+    width: 60%;
+    height: 50%;
+    font-size:large;
+}
+
+#form > #submit
+{
+    height: 50%;
+    background-color: greenyellow;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+#form > input::placeholder
+{
+    color: #EB5E28;
+}
+
+
+.here, .nowhere, .consists
+{
+    width: 18%;
+    height: 5em;
+    display: grid;
+    place-items: center;
+    float: left;
+    margin: 1%;
+}
+
+.here{background-color: greenyellow;}
+.nowhere{background-color: lightgray;}
+.consists{background-color: rgb(206, 143, 7);}
